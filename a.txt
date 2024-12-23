@@ -1,4 +1,4 @@
-//hello world
+/hello world
 #include<stdio.h>
 int main()
 {
@@ -12,4 +12,14 @@ int a,b,temp;
 temp=a;
 a=b;
 b=temp;
+}
+//program to swap numbers without temp
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+a=2;
+b=2;
+c=a+b;
+printf("%d",c);
 }
